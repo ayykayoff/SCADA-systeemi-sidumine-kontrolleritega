@@ -15,7 +15,7 @@ HMI kasutajaliidese kaudu.
 - Ventilaatori töö kahes režiimis:
   - **Automaatrežiim** – SCADA-s määratud temperatuuriseadistuse järgi reguleeritakse
     ventilaatori kiirust vastavalt mõõdetud temperatuurile
-  - **Käsirežiim** – ventilaatori kiirus on konstantne ja seda muudetakse
+  - **Käsirežiim** – ventilaatori kiirus muudetakse
     potentsiomeetriga (SCADA-s ainult jälgimine)
 - Ventilaatori PWM-väljundi juhtimine Arduinost
 - Andmevahetus SCADA ↔ Arduino üle **Modbus TCP**
