@@ -40,9 +40,3 @@ HMI kasutajaliidese kaudu.
 - **Modbus TCP** – andmevahetus SCADA ja Arduino vahel
 - GitHub versioonihalduseks
 
-## Projekti struktuur
-.
-├─ arduino/          # Arduino kood (sketch, teegid)
-├─ ignition/         # Ignition SCADA projekti eksport (zip või .json)
-├─ docs/             # Skeemid, aruande lisad, joonised
-└─ README.md
