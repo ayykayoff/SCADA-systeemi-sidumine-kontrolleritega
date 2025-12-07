@@ -1,7 +1,7 @@
-# SCADA ventilaatori juhtimine kütteseadme jahutamiseks
+# SCADA süsteemi sidumine kontrolleritega
 
 IAS1420 — *Arvutite ja süsteemide projekt*  
-Autorid: _[siia nimed]_  
+Autorid: Aimar Kamm, Ivan Mikhaylov  
 Juhendaja: **Andres Rähni**
 
 Projektis realiseeriti ventilaatori juhtimissüsteem kütteseadme jahutamiseks, kasutades
@@ -26,9 +26,9 @@ HMI kasutajaliidese kaudu.
 
 ## Kasutatud riistvara
 
-- Arduino (UNO / Nano / muu – täpsusta)
+- Arduino (UNO Rev4 Wifi)
 - Kütteseade (12 V L7812CV pingeregulaator koormusega)
-- Temperatuuriandur (täpsusta tüüp, nt NTC, LM35 vms)
+- Temperatuuriandur
 - DC ventilaator (12 V)
 - Potentsiomeeter ventilaatori käsijuhtimiseks
 - Toiteallikas ja vajalikud lisakomponendid (takistid, dioodid jne)
@@ -38,11 +38,9 @@ HMI kasutajaliidese kaudu.
 - **Ignition Maker Edition** – SCADA platvorm ja HMI
 - **Arduino IDE** – mikrokontrolleri programmi arendus
 - **Modbus TCP** – andmevahetus SCADA ja Arduino vahel
-- (soovi korral) Git / GitHub versioonihalduseks
+- GitHub versioonihalduseks
 
 ## Projekti struktuur
-
-```text
 .
 ├─ arduino/          # Arduino kood (sketch, teegid)
 ├─ ignition/         # Ignition SCADA projekti eksport (zip või .json)
